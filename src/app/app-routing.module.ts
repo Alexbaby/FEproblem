@@ -1,7 +1,12 @@
-import { NgModule } from '@angular/core';
+import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { DropdownPageComponent } from './dropdown-page/dropdown-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+
+  { path:'', component:DropdownPageComponent }
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
